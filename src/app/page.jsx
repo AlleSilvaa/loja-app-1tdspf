@@ -1,23 +1,26 @@
 import Link from "next/link"
-import Image from "next/image"
+
+import Image from 'next/image'
 
 export default function Home() {
   return (
+    
     <>
       <h1>HOME</h1>
-      <div>
-      <h2>Meus Produtos</h2>
+
+      <h2>MEUS PRODUTOS</h2>
       <ul>
-        <li><Link href="./produtos/calca">Calça</Link></li>
-        <li><Link href="./produtos/camisa">Camisa</Link></li>
-        <li><Link href="./produtos/meia">Meia</Link></li>
-        <li><Link href="./produtos/tenis">Tênis</Link></li>
+        <li><Link href="/produtos/calca">CALÇA</Link></li>
+        <li><Link href="/produtos/meia">MEIA</Link></li>
+        <li><Link href="/produtos/camisa">CAMISA</Link></li>
+        <li><Link href="/produtos/tenis">TÊNIS</Link></li>
       </ul>
-      </div>
 
       <figure>
-        <image src= "/public/img/black-friday-2946943_1280.jpg" alt= "Placa escura" width={335} height={500}></image>
+          <Image src="/img/black-friday.jpg" alt="flore" height={500} width={500}/>
       </figure>
+
     </>
+
   )
 }
