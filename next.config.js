@@ -2,15 +2,15 @@
 const nextConfig = {}
 
 module.exports = {
-     images: {
-        remotePatterns: [
-            //protocol, hostname, port, and pathname 
-            {
-                protocol: 'https',
-                hostname: 'http.cat',
-                port: '',
-                pathname: '/images/**',
+    images: {
+       remotePatterns: [
+           //protocol, hostname, port, and pathname 
+           {
+            protocol: 'https',
+            hostname: 'www.weatherstationforhome.com',
+            port: '',
+            pathname: '/wp-content/uploads/2020/03/404.jpg',
             },
-        ],
-     },
+       ],
+    },
 }

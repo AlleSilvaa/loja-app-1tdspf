@@ -14,7 +14,7 @@ export default function tenis() {
         <p><Link href="/">voltar...</Link></p>
 
         <figure>
-          <Image src="/img/tenis.jpg" alt="flore" height={500} width={500}/>
+          <Image src="/img/tenis.png" alt="flore" height={500} width={500}/>
         </figure>
 
       </>
