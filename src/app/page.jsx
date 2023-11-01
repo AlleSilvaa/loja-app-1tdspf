@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +9,7 @@ export default function Home() {
 
 
         <figure>
-          <Image src="/img/black-friday.jpg" alt="Placa escura" width={640} height={360}/>
+          <Image src="/img/black-640×360_1280.png" alt="Placa escura" width={640} height={360}/>
         </figure>
 
       </div>

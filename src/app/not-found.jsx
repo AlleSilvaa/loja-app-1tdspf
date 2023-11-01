@@ -6,7 +6,7 @@ export default function NotFound() {
         <h1 className="text-center">OOPS! 404!</h1>
         <div>
           <figure>
-            <Image  className="block m-auto w-80" src="https://www.weatherstationforhome.com/wp-content/uploads/2020/03/404.jpg" alt="Gato no jornal" width={750} height={600} />
+            <Image  className="block m-auto w-80" src="https://http.cat/images/404.jpg" alt="Gato no jornal" width={750} height={600} />
           </figure>
         </div>
         <p className="text-center">Página não encontrada!</p>
